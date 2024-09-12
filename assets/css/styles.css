@@ -11,9 +11,10 @@
       Pink: hsl(356, 66%, 75%)
       Teal: hsl(174, 63%, 62%)
   */
+  /* color: hsl(331, 55%, 61%); */
   --color: hsl(180, 82%, 42%);
-  --hue: 253;
-  --sat: 91%;
+  --hue: 326;
+  --sat: 72%;
   --lig: 72%;
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
@@ -258,7 +259,8 @@ body.dark-theme {
   background-color: var(--first-color);
   color: #fff;
   padding: 1.15rem 1.5rem;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
+  border-radius: 0.875rem;
   transition: 0.3s;
   box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), 0.25);
   font-size: var(--smaller-font-size);
@@ -291,7 +293,7 @@ body.dark-theme {
   margin: 2rem 0 2.5rem;
   background-color: var(--text-color-lighten);
   padding: 0.375rem;
-  border-radius: 0.75rem;
+  border-radius: 0.875rem;
   display: flex;
   justify-content: space-between;
   column-gap: 0.5rem;
